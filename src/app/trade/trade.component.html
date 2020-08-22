@@ -1,0 +1,22 @@
+<div>
+  <h1 class="title">{{ 'PAGES.TRADE.TITLE' | translate }}</h1>
+  <form [formGroup]="tradeForm" (ngSubmit)="onSubmit(tradeForm.value)">
+
+    <div>
+      <label for="ticker">
+        Aktie
+      </label>
+      <input id="ticker" type="text" formControlName="ticker">
+    </div>
+
+    <div>
+      <label for="price">
+        price
+      </label>
+      <input id="price" type="number" min="0" step="0.01" formControlName="price">
+    </div>
+    <button class="button" type="submit">{{ 'PAGES.TRADE.SUBMIT' | translate }}</button>
+  </form>
+
+  <a routerLink="/">{{ 'PAGES.DETAIL.BACK_TO_HOME' | translate }}</a>
+</div>

@@ -4,4 +4,12 @@
   </h1>
 
   <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+  <a routerLink="/strategy">{{ 'PAGES.HOME.GO_TO_STRATEGY' | translate }}</a>
+  <tl-input ngModel="Many Properties" [iconBefore]="'ion-printer'" [placeholder]="'With Placeholder'" [textAfter]="'US'"
+    [clearButton]="true" [autocomplete]="'off'">
+  </tl-input>
+
+  <form clrForm>
+    <input clrInput placeholder="My input" name="input" [(ngModel)]="input" />
+  </form>
 </div>

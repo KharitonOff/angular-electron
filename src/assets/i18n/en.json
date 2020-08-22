@@ -1,12 +1,18 @@
 {
   "PAGES": {
-      "HOME": {
-          "TITLE": "App works !",
-          "GO_TO_DETAIL": "Go to Detail"
-      },
-      "DETAIL": {
-        "TITLE": "Detail page !",
-        "BACK_TO_HOME": "Back to Home"
+    "HOME": {
+      "TITLE": "App works !",
+      "GO_TO_DETAIL": "Go to Detail",
+      "GO_TO_TRADE": "Go to Trade"
+    },
+    "DETAIL": {
+      "TITLE": "Detail page !",
+      "BACK_TO_HOME": "Back to Home"
+    },
+    "TRADE": {
+      "TITLE": "Trade page !",
+      "SUBMIT": "Execute",
+      "BACK_TO_HOME": "Back to Home"
     }
   }
 }
